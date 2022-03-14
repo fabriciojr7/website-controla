@@ -34,7 +34,7 @@ export default function ClientArea() {
 
     function acessar() {
         if (cnpj === '') {
-            showAlert('info', 'É obrigatorio informar o cnpj!')
+            showAlert('info', 'É obrigatorio informar o CNPJ!')
             return;
         }
 
@@ -64,7 +64,7 @@ export default function ClientArea() {
                     <ContainerClient>
                         <InfosClient>
                             <Description>
-                                <p>Acesse a área do cliente, para que possa obter sua chave de liberação, ou boleto de pagamento.</p>
+                                <p>Acesse a área do cliente para obter a sua chave de liberação ou boleto de pagamento.</p>
                             </Description>
 
                             <FormClient>
@@ -72,7 +72,7 @@ export default function ClientArea() {
                                     <input
                                         required
                                         type="text"
-                                        placeholder='Informe o cnpj da empresa'
+                                        placeholder='Informe o CNPJ da empresa'
                                         onChange={(e) => { setCnpj(e.target.value) }}
                                     />
                                 </SingleInput>

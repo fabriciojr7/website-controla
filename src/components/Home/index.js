@@ -17,7 +17,7 @@ export default function Home() {
                     <BannerContainer>
                         <h1>Nosso objetivo é ajudar sua empresa a crescer</h1>
                         <p>Temos soluções ideais para micros e pequenas
-                            empresas de varejo.</p>
+                            empresas do varejo.</p>
 
 
                         <div className='botao'>
@@ -37,17 +37,17 @@ export default function Home() {
                     <SkillItem>
                         <img src="/images/leis.png" />
                         <h4>Atendemos as leis vigentes</h4>
-                        <p>Mantemos os nossos sistemas sempre atualizados e preparados para as leis que estão em vigor</p>
+                        <p>Sistemas sempre atualizados e preparados para a legislação vigente</p>
                     </SkillItem>
                     <SkillItem>
                         <img src="/images/relogio.png" />
                         <h4>Atualizações periódicas</h4>
-                        <p>Mantemos nosso sistemas sempre atualizados, prezando a segurança e tecnologia</p>
+                        <p>Mantemos nosso sistemas sempre atualizados prezando pela segurança e tecnologia</p>
                     </SkillItem>
                     <SkillItem>
                         <img src="/images/conversando.png" />
                         <h4>Suporte técnico</h4>
-                        <p>Suporte feito tanto remotamente, quanto presencial</p>
+                        <p>Suporte realizado de forma presencial ou através de acesso remoto</p>
                     </SkillItem>
 
                 </ContainerSkill>

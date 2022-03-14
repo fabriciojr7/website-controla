@@ -53,7 +53,7 @@ export const PhotoType = styled.div`
    }
 
    @media only screen and (min-width: 400px){
-        width: 350px        
+        width: 350px   
    }
 
    @media only screen and (min-width: 700px){

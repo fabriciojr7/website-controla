@@ -18,7 +18,7 @@ export default function TabProducts() {
                     onClick={() => toggleTab(1)}
                     className={toggle === 1 ? 'active' : ''}
                 >
-                    <h4>S@t facil</h4>
+                    <h4>S@T Fácil</h4>
                 </Tab>
                 <Tab
                     onClick={() => toggleTab(2)}

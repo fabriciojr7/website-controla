@@ -72,7 +72,7 @@ export const SingleInput = styled.div`
         background: none;
         color: #FFF;
         font-size: 18px;
-        width: 80%;       
+        width: 85%;       
     }
 `
 

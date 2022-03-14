@@ -15,28 +15,47 @@ export const TabProdHead = styled.div`
     max-width: 500px;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 20px;
+
+    
  
+    
 `
 
 export const Tab = styled.div`
+    flex: 1;
+    padding: 8px;
+    text-align: center;
     >h4{
         font-size: 24px;
-    }
-
+    }    
     cursor: pointer;
     transition: .5s;
+
     &:hover{
         color: ${(props) => props.theme.colors.primary};
     }
     &.active {
-        color: ${(props) => props.theme.colors.primary};
-    }
+        color: ${(props) => props.theme.colors.primary}; 
+        border-radius: 10px 10px 0 0;  
+        background: #e0e0e0;          
+    }    
+
+    
 `
 
 export const TabProdBody = styled.div`
-    margin: 0 30px 10px 30px;
+    
     position: relative;
+    background: #e0e0e0;
+    padding-bottom: 16px;
+
+    
+
+    @media only screen and (min-width: 575px){
+        border-radius: 10px;  
+        padding: 24px;
+        margin: 0 30px 10px 30px;
+    }    
 `
 
 export const TabContent = styled.div`

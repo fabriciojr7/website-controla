@@ -31,8 +31,8 @@ export default function Contact() {
                 </Title>
                 <ContainerContact>
                     <Description>
-                        <h4>Entre em contato conosco, para tirar duvidas sobre o sistema, marcar reuniões ou visitas, ficaremos felizes em atende-los</h4>
-                        <p>Nosso funcionamento é de segunda à sexta, das <span>8h às 11h</span>, e das <span>13h às 18h</span>. O atendimento é feito tanto presencialmente, quanto por acesso remoto.</p>
+                        <h4>Nosso horário de funcionamento é de segunda à sexta, das <span>8h às 11h</span>, e das <span>13h às 18h</span>.</h4>
+                        <p>Entre em contato conosco através dos canais abaixo.</p>
                     </Description>
                     <Items>
                         <Item>
@@ -73,7 +73,7 @@ export default function Contact() {
                                 <h5>Telefone</h5>
                             </Text>
                             <SubText>
-                                Você pode ligar a qualquer hora.
+                                Ligue através do número
                             </SubText>
                             <Info>
                                 <p>(18)3704-4668</p>

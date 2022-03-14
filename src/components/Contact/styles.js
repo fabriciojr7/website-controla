@@ -27,6 +27,9 @@ export const Description = styled.div`
     >h4{
         font-size: 18px;
         font-weight: 500;
+        >span{
+            color: ${(props) => props.theme.colors.primary};
+        }
     }
     >p{
         padding-top: 18px;

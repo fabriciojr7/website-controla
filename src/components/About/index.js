@@ -43,7 +43,7 @@ export default function About() {
                     <ItemAbout>
                         <img src="/images/negocio.png" />
                         <h2>Nosso negócio</h2>
-                        <p>Desenvolvimento de software, implantação e ainda oferecemos suporte técnico especializado para maior satisfação de nossos clientes.</p>
+                        <p>Desenvolvimento de software, implantação e suporte técnico especializado para maior satisfação de nossos clientes.</p>
                     </ItemAbout>
                     <ItemAbout>
                         <img src="/images/alvo.png" />
