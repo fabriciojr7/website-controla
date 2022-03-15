@@ -53,7 +53,7 @@ export const Items = styled.div`
 
 export const Item = styled.div`
     width: 300px;
-    height:208px;
+    height:215px;
     margin-top: 25px;
     padding: 16px;
     background: #e0e0e0;
