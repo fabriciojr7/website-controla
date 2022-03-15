@@ -29,8 +29,7 @@ export default function Header() {
         <HeaderContainer showBackground={showBackground} >
             <NavContainer>
                 <Logo>
-                    <img src="/images/Controla.jpg" alt="" />
-                    {/*<h1>Controla Logo</h1>*/}
+                    <img src="/images/Controla.jpg" alt="Logo Controla" />
                 </Logo>
                 <List >
                     <Hamburguer onClick={handleMenuHamb} className={['hamb', active ? 'active' : '']} >

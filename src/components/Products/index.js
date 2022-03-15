@@ -23,7 +23,7 @@ export default function Products() {
 
                 <ProductContainer>
                     <ProductBg>
-                        <img src='/images/prod.jpg' />
+                        <img src='/images/prod.jpg' alt=''/>
                     </ProductBg>
 
                     <ProductDescriptionSection>

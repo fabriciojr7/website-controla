@@ -40,7 +40,7 @@ export default function ProductsGallery({ mobile, infosProduct }) {
                 }
 
                 <PhotoType>
-                    <img src={infosProduct.photo} />
+                    <img src={infosProduct.photo} alt='Imagem demonstrativa sobre o S@T Facil ou Mobile' />
                 </PhotoType>
 
 

@@ -35,23 +35,23 @@ export default function About() {
                     </AboutHistory>
 
                     <AboutBg >
-                        <img src='/images/ControlaFachada.jpeg' />
+                        <img src='/images/ControlaFachada.jpeg' alt='Fachada do prédio da Controla'/>
                     </AboutBg>
                 </AboutContainer>
 
                 <ContainerAboutItems>
                     <ItemAbout>
-                        <img src="/images/negocio.png" />
+                        <img src="/images/negocio.png" alt='Nosso Negócio' />
                         <h2>Nosso negócio</h2>
                         <p>Desenvolvimento de software, implantação e suporte técnico especializado para maior satisfação de nossos clientes.</p>
                     </ItemAbout>
                     <ItemAbout>
-                        <img src="/images/alvo.png" />
+                        <img src="/images/alvo.png" alt='Nossa missão' />
                         <h2>Nossa missão</h2>
                         <p>Oferecer produtos e serviços de qualidade que excedam as expectativas e assegure a satisfação dos clientes, de nossos colaboradores e da comunidade.</p>
                     </ItemAbout>
                     <ItemAbout>
-                        <img src="/images/politica.png" />
+                        <img src="/images/politica.png" alt='Política de qualidade'/>
                         <h2>Política de qualidade</h2>
                         <p>A empresa está comprometida na melhoria da qualidade dos produtos e serviços, através da parceria
                             com clientes, colaboradores e fornecedores, e valendo-se de novas tecnologias, buscando sempre execer

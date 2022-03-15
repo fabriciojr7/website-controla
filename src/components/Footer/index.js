@@ -16,7 +16,7 @@ export default function Footer() {
                         <Bar/>
                     </Description>
 
-                    <li><a href="http://www.controla.com.br/contabil/" target='_blank' rel="noopener noreferrer">Portal contábil</a></li>
+                    <li><a href="https://www.controla.com.br/contabil/" target='_blank' rel="noopener noreferrer">Portal contábil</a></li>
                     <li><a href="https://sistemasatfacil.com.br/parceiros/" target='_blank' rel="noopener noreferrer">Sistema de parceiros</a></li>
                 </ul>
                 <ul>

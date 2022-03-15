@@ -53,7 +53,7 @@ export const Items = styled.div`
 
 export const Item = styled.div`
     width: 300px;
-    height:200px;
+    height:210px;
     margin-top: 25px;
     padding: 16px;
     background: #e0e0e0;
@@ -127,6 +127,6 @@ export const Info = styled.div`
     >p{
         color: black;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 16px;
     }
 `

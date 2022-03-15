@@ -30,22 +30,22 @@ export default function Home() {
             <Skills data-aos='fade-down'>
                 <ContainerSkill>
                     <SkillItem>
-                        <img src="/images/produto-qualidade.png" />
+                        <img src="/images/produto-qualidade.png" alt='Produtos e serviços de qualidade'/>
                         <h4>Produtos e serviços de qualidade</h4>
                         <p>Temos soluções completas para a automação comercial de sua empresa</p>
                     </SkillItem>
                     <SkillItem>
-                        <img src="/images/leis.png" />
+                        <img src="/images/leis.png" alt='Atendemos as leis vigentes'/>
                         <h4>Atendemos as leis vigentes</h4>
                         <p>Sistemas sempre atualizados e preparados para a legislação vigente</p>
                     </SkillItem>
                     <SkillItem>
-                        <img src="/images/relogio.png" />
+                        <img src="/images/relogio.png" alt='Atualizações periódicas'/>
                         <h4>Atualizações periódicas</h4>
                         <p>Mantemos nosso sistemas sempre atualizados prezando pela segurança e tecnologia</p>
                     </SkillItem>
                     <SkillItem>
-                        <img src="/images/conversando.png" />
+                        <img src="/images/conversando.png" alt='Suporte técnico'/>
                         <h4>Suporte técnico</h4>
                         <p>Suporte realizado de forma presencial ou através de acesso remoto</p>
                     </SkillItem>
