@@ -94,9 +94,6 @@ export default function Contact() {
                         </Item>
                     </Items>
                 </ContainerContact>
-
-
-
             </Wrapper>
         </Container>
     )

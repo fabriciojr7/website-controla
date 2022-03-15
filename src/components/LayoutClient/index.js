@@ -15,10 +15,12 @@ export default function LayoutClient() {
     const [boletos, setBoletos] = useState([]);
     const [nome, setNome] = useState('')
     const [cnpj, setCnpj] = useState()
+
     const router = useRouter()
 
     useEffect(() => {
         const cnpjLocalStorage = localStorage.getItem('cnpj')
+        
         localStorage.removeItem('cnpj')
 
         setCnpj(cnpjLocalStorage)
@@ -37,7 +39,7 @@ export default function LayoutClient() {
             router.push('/')
         }
 
-    }, [])
+    }, [router])
 
 
     return (
@@ -49,7 +51,7 @@ export default function LayoutClient() {
                         <>
                             < Header >
                                 <Logo>
-                                    <img src="/images/ControlaCliente.jpg" />
+                                    <img src="/images/ControlaCliente.jpg" alt='Logo Controla' />
                                 </Logo>
 
                                 <Title>
@@ -146,7 +148,7 @@ export default function LayoutClient() {
 
                     ) : (
                         <Unauthenticated >
-                            <img src="/images/ControlaCliente.jpg" />
+                            <img src="/images/ControlaCliente.jpg" alt='Logo Controla'/>
                         </Unauthenticated>
                     )
                 }
