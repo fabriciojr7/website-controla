@@ -52,8 +52,8 @@ export default function Contact() {
                                 </SubText>
                                 <Info>
                                     <p>R. Antônio Francisco Xavier, 1270</p>
-                                    <p className='city'>Pereira Barreto - SP, CEP 15375-604</p>
-
+                                    <p>Jardim Tóquio - CEP 15375-604</p>
+                                    <p>Pereira Barreto - SP</p>
                                 </Info>
                             </a>
 
