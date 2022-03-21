@@ -22,7 +22,7 @@ export const Container = styled.div`
         color: #FFF;      
     }
     &:hover{
-        background: ${(props) => props.theme.colors.secondary};
+        background: #3292d1;
     }
 
 `
